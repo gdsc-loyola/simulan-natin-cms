@@ -4,7 +4,8 @@
   "info": {
     "singularName": "bill",
     "pluralName": "bills",
-    "displayName": "Bill"
+    "displayName": "Bill",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -17,7 +18,7 @@
       "unique": true
     },
     "title": {
-      "type": "string"
+      "type": "text"
     },
     "status": {
       "type": "string"
