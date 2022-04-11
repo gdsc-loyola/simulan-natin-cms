@@ -54,6 +54,11 @@
       "relation": "oneToMany",
       "target": "api::bill.bill",
       "mappedBy": "representative"
+    },
+    "advocacies": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::advocacy.advocacy"
     }
   }
 }
