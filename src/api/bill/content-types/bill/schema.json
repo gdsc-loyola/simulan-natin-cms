@@ -26,16 +26,16 @@
     "date": {
       "type": "date"
     },
-    "representative": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::representative.representative",
-      "inversedBy": "bills"
-    },
     "advocacy": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::advocacy.advocacy",
+      "inversedBy": "bills"
+    },
+    "representatives": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::representative.representative",
       "inversedBy": "bills"
     }
   }
