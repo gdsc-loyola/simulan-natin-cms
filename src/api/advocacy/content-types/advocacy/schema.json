@@ -22,6 +22,12 @@
       "relation": "oneToMany",
       "target": "api::bill.bill",
       "mappedBy": "advocacy"
+    },
+    "representatives": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::representative.representative",
+      "inversedBy": "advocacies"
     }
   }
 }
