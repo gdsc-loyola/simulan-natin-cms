@@ -28,6 +28,12 @@
       "relation": "manyToMany",
       "target": "api::representative.representative",
       "mappedBy": "advocacies"
+    },
+    "text_color": {
+      "type": "string"
+    },
+    "bg_color": {
+      "type": "string"
     }
   }
 }

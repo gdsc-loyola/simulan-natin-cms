@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "conventions",
+  "info": {
+    "singularName": "convention",
+    "pluralName": "conventions",
+    "displayName": "convention",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "date": {
+      "type": "date"
+    },
+    "recording_url": {
+      "type": "string"
+    },
+    "location": {
+      "type": "text"
+    },
+    "poster": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "speaker": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "theme": {
+      "type": "string"
+    }
+  }
+}
