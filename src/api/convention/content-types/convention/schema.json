@@ -4,7 +4,7 @@
   "info": {
     "singularName": "convention",
     "pluralName": "conventions",
-    "displayName": "convention",
+    "displayName": "Convention",
     "description": ""
   },
   "options": {
@@ -30,18 +30,20 @@
       "type": "text"
     },
     "poster": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "speaker": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "theme": {
       "type": "string"
