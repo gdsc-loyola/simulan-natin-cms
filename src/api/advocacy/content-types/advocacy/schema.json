@@ -27,7 +27,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::representative.representative",
-      "mappedBy": "advocacies"
+      "inversedBy": "advocacies"
     }
   }
 }

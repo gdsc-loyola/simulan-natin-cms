@@ -59,7 +59,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::advocacy.advocacy",
-      "mappedBy": "representatives"
+      "inversedBy": "representatives"
     }
   }
 }
