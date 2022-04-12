@@ -51,9 +51,9 @@
     },
     "bills": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "manyToMany",
       "target": "api::bill.bill",
-      "mappedBy": "representative"
+      "mappedBy": "representatives"
     },
     "advocacies": {
       "type": "relation",
