@@ -24,7 +24,7 @@
       "type": "date"
     },
     "recording_url": {
-      "type": "string"
+      "type": "text"
     },
     "location": {
       "type": "text"
